@@ -43,3 +43,5 @@ Click **Generate** and download the `cp_bundle.zip`.
 - Enhance the frontend to preview the generated doc and the JSON report.
 ## project frontend url link 
 http://127.0.0.1:5500/
+## youtube video link
+https://youtu.be/19HXmWd3qVg?si=2TWMtcVfipW4Y19Q
