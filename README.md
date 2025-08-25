@@ -41,3 +41,5 @@ Click **Generate** and download the `cp_bundle.zip`.
 - Add richer NLP (e.g., spaCy) for entity extraction from freeform recaps.
 - Persist versions and audit logs in a database (e.g., Postgres).
 - Enhance the frontend to preview the generated doc and the JSON report.
+## project frontend url link 
+https://www.netflix.com/in/
