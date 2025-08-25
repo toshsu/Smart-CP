@@ -1,0 +1,12 @@
+Charterer: Blue Ocean Logistics
+Owner: Sunrise Shipping Co.
+Vessel: MV BRIGHT STAR
+Laycan: 2025-09-01 to 2025-09-03
+Freight: USD 22.50 PMT
+Cargo: Coal
+Quantity: 60,000 MT
+Loading Port: Richards Bay
+Discharge Port: Mundra
+Demurrage Rate: USD 15,000 per day
+Governing Law: English law
+Arbitration: London

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart CP Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Smart CP Generator</h1>
+      <p>Upload Recap (.txt), Base CP (.docx), and Negotiated Clauses (.txt)</p>
+    </header>
+
+    <main>
+      <form id="cp-form">
+        <div class="field">
+          <label>Fixture Recap (.txt)</label>
+          <input type="file" id="recap" accept=".txt" required />
+        </div>
+        <div class="field">
+          <label>Base CP Template (.docx)</label>
+          <input type="file" id="base_cp" accept=".docx" required />
+        </div>
+        <div class="field">
+          <label>Negotiated Clauses (.txt)</label>
+          <input type="file" id="negotiated" accept=".txt" required />
+        </div>
+        <div class="field">
+          <label>Output File Name</label>
+          <input type="text" id="filename" placeholder="Final_CP.docx" />
+        </div>
+        <button type="submit">Generate</button>
+      </form>
+
+      <section id="result" class="hidden">
+        <h2>Result</h2>
+        <a id="downloadLink" href="#" download="cp_bundle.zip">Download CP Bundle</a>
+        <pre id="report"></pre>
+      </section>
+
+      <section>
+        <h2>Sample Files</h2>
+        <ul>
+          <li><a href="../backend/sample/fixture_recap.txt" target="_blank">fixture_recap.txt</a></li>
+          <li><a href="../backend/sample/negotiated_clauses.txt" target="_blank">negotiated_clauses.txt</a></li>
+          <li><a href="../backend/sample/base_cp.docx" target="_blank">base_cp.docx</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>Start the backend at <code>http://localhost:8000</code> before using the app.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
